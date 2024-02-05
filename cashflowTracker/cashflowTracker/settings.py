@@ -42,8 +42,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'bootstrap5',
     'crispy_forms',
-    'cashflowTracker'
+    'budget',
 ]
+
+AUTH_USER_MODEL = "budget.CustomUser"
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
