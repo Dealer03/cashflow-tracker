@@ -23,4 +23,6 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path("budget/", include("budget.urls")),
     path("budget/", include("django.contrib.auth.urls")),
+    path("transactions/", include('transactions.urls')),
+    path("importer", include("importer.urls"))
 ]

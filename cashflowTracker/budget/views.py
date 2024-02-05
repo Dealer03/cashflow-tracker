@@ -14,7 +14,7 @@ class SignUpView(CreateView):
 
 
 class CreateBudgetEntryView(View):
-    template_name = "create_budget.html"
+    template_name = "create-budget.html"
 
     def get(self, request, *args, **kwargs):
         form = BudgetForm()

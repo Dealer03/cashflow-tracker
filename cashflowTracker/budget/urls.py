@@ -4,7 +4,7 @@ from .views import CreateBudgetEntryView
 
 urlpatterns = [
     path("signup/", SignUpView.as_view(), name="signup"),
-    path("create_budget/", CreateBudgetEntryView.as_view(),
+    path("create-budget/", CreateBudgetEntryView.as_view(),
          name="create_budget_entry"),
 
 ]
